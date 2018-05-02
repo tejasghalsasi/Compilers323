@@ -1,0 +1,10 @@
+function add$ [a:int,b:int]
+{
+           return a + b;
+}
+
+%%
+     int    a,b;      ! declarations !
+
+     get (a,b);
+             put (add$ (a,b)); 

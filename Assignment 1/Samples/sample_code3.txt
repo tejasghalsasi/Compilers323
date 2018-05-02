@@ -1,0 +1,10 @@
+function sub$ [a:int,b:int]
+{
+           return a - b;
+}
+
+%%
+     int    a,b;      ! declarations !
+
+     get (a,b);
+             put (sub$ (a,b)); 

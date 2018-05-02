@@ -1,0 +1,10 @@
+function mul$ [a:int,b:int]
+{
+           return a * b;
+}
+
+%%
+     int    a,b;      ! declarations !
+
+     get (a,b);
+             put (mul$ (a,b)); 

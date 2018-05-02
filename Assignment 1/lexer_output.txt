@@ -1,0 +1,73 @@
+function   : identifier
+convert   : identifier
+$ : Lexical Error, invalid token
+[ : Lexical Error, invalid token
+fahr   : identifier
+: : Lexical Error, invalid token
+int   : identifier
+] : Lexical Error, invalid token
+{   : separator
+return   : identifier
+5   : Integer
+*   : operator
+(   : separator
+fahr   : identifier
+-   : operator
+32   : Integer
+)   : separator
+/   : operator
+9   : Integer
+; : Lexical Error, invalid token
+}   : separator
+% : Lexical Error, invalid token
+% : Lexical Error, invalid token
+int   : identifier
+low   : identifier
+, : Lexical Error, invalid token
+high   : identifier
+, : Lexical Error, invalid token
+step   : identifier
+$ : Lexical Error, invalid token
+; : Lexical Error, invalid token
+!   : operator
+declarations   : identifier
+!   : operator
+get   : identifier
+(   : separator
+low   : identifier
+, : Lexical Error, invalid token
+high   : identifier
+, : Lexical Error, invalid token
+step   : identifier
+$ : Lexical Error, invalid token
+)   : separator
+; : Lexical Error, invalid token
+while   : identifier
+(   : separator
+low   : identifier
+<   : operator
+high   : identifier
+)   : separator
+{   : separator
+put   : identifier
+(   : separator
+low   : identifier
+)   : separator
+; : Lexical Error, invalid token
+put   : identifier
+(   : separator
+convert   : identifier
+$ : Lexical Error, invalid token
+(   : separator
+low   : identifier
+)   : separator
+)   : separator
+; : Lexical Error, invalid token
+low   : identifier
+=   : operator
+low   : identifier
++   : operator
+step   : identifier
+$ : Lexical Error, invalid token
+; : Lexical Error, invalid token
+}   : separator
