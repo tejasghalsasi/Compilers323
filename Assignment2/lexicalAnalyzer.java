@@ -9,8 +9,8 @@ This class is a lexical analyzer i have re written.
 
 public class lexicalAnalyzer
 {
-Queue <String> tokenQueue= new LinkedList<String>();
-Queue <String> lexemeQueue=new LinkedList<String>();
+static Queue <String> tokenQueue= new LinkedList<String>();
+static Queue <String> lexemeQueue=new LinkedList<String>();
 
 public static BufferedReader inStream;
 public static PrintWriter outStream;
@@ -22,6 +22,16 @@ public static PrintWriter outStream;
 	{
 		setIO("abc.txt","xyz.txt");
 	}
+	Queue <String> gettokenQueue()
+	{
+		return tokenQueue;
+	}
+
+Queue <String> getlexemeQueue()
+	{
+		return lexemeQueue;
+	}
+	
 
 	public static int getNextChar()
 	{
@@ -61,13 +71,12 @@ public static PrintWriter outStream;
 	}
 
 	public static void setIO(String inFile, String outFile)
-
-	
+	{	
 	{
 		try
 		{
-			inStream = new BufferedReader( new FileReader(inFile) );
-			outStream = new PrintWriter( new FileOutputStream(outFile) );
+			inStream = new BufferedReader( new FileReader(new File(inFile)));
+			outStream = new PrintWriter( new FileOutputStream(new File(outFile)));
 			a = inStream.read();
 		}
 		catch(FileNotFoundException e)
@@ -477,4 +486,15 @@ sc = new Scanner( inFile);
 		}
 	}
 }
+public static void main(String args[])
+{
+	lexicalAnalyzer a=new lexicalAnalyzer();
+	a.lexer();
+
+	displayln("this thing is not working madarchod");
+}
+
+
+
+
 }

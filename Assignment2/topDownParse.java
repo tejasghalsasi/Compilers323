@@ -898,6 +898,12 @@ public static void main(String args[])
 {
 	lexicalAnalyzer a=new lexicalAnalyzer();
 	a.lexer();
+	
+tokenQueue= (a.gettokenQueue());
+lexemeQueue=(a.getlexemeQueue());
+System.out.println(tokenQueue);
+System.out.println(lexemeQueue);
+
 	parse();
 	
 }
