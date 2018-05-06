@@ -1,0 +1,16 @@
+! RAT18S sample code
+more than 10 less than 20 lines !
+
+function convert$ [fahr:int]
+{
+           return 5 * (fahr -32) / 9;
+}
+
+%%
+     int    low,  high, step$;      ! declarations !
+
+     get (low, high, step$);
+     while (low  <  high )  
+         {  put (low);
+             low =  low  +  step$;
+         }

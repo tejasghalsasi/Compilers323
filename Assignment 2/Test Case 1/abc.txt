@@ -1,0 +1,9 @@
+! Rat18S sample source code 1 (less than 10 lines) !
+int a;
+float fah$ =9.8;
+upper=90;
+function calculate(a, fah$){
+	while (fah$  <upper) {
+	a=23.00;
+	return a;
+}}
