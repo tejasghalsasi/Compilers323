@@ -1,0 +1,10 @@
+%%
+integer i, tejas, temp;
+i := 3;
+tejas := 10;
+temp:=0;
+for (i < tejas)
+{
+	i = i + 1;
+	temp=temp+1
+}

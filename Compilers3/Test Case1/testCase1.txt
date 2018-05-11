@@ -1,0 +1,19 @@
+%%
+integer i, max, sum, jack;
+i := 3;
+max := 5;
+if (i < max)
+{
+	i := i + 1;
+}
+fi
+sum := 5;
+while (i > max)
+{
+	sum := i;
+}
+jack := sum + max;
+for (i < jack)
+{
+	i = i + 1;
+}

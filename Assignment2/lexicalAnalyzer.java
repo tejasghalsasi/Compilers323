@@ -72,7 +72,9 @@ Queue <String> getlexemeQueue()
 
 	public static void setIO(String inFile, String outFile)
 	{	
-	{
+		inFile="/home/aibot/Desktop/GIT_folder/Compilers323-master/Compilers323/Assignment2/abc.txt";
+		outFile="/home/aibot/Desktop/GIT_folder/Compilers323-master/Compilers323/Assignment2/xyz.txt";
+	
 		try
 		{
 			inStream = new BufferedReader( new FileReader(new File(inFile)));

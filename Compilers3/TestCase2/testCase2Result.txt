@@ -1,0 +1,6 @@
+1 PUSHI 3
+2 POPM 2000
+3 PUSHI 10
+4 POPM 2001
+i		2000		integer
+tejas		2001		integer
